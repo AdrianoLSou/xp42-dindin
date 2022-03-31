@@ -1,0 +1,109 @@
+.início {
+    margin: 82px 0 82px 82px;
+}
+
+.início h1 {
+    margin: 0;
+    color:  #ff4081;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+}
+
+.início p {
+    margin: 0;
+    color: #555;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* cursos */
+
+.cursos {
+    display: flex;
+    margin: 95px 0 68px 112px;
+    align-items: center;
+}
+
+.cursos img {
+    width: 380px;
+}
+
+.conteúdo {
+    margin-left: 53px;
+}
+
+.conteúdo h2 {
+    margin: 21px 0 37px 0;
+    color: #ff4081;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.conteúdo p {
+    margin: 0 0 65px 0;
+    color: #000000;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    width: 724px;
+
+}
+
+.conteúdo a {
+    color: #ffffff;
+    padding: 10px 35px;
+    background: #419488;
+    border-radius: 62px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+hr {
+    width: 80%;
+    color: #c4c4c4;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 1200px) {
+    .cursos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 90px auto 90px auto;
+        text-align: center;
+    }
+
+    .cursos p {
+        text-align: justify;
+    }
+    
+}
+
+@media screen and (max-width: 769px) {
+    .conteúdo p {
+        width: auto;
+    }
+    .cursos {margin: 0 20px 90px 0;
+    }
+    
+}
+
+@media screen and (max-width: 481px) {
+    .cursos img {
+        width: auto;
+    }
+
+    .cursos {
+        margin: 90px 30px 90px 0;
+        width: auto;
+    }
+} 
