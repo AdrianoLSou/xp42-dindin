@@ -1,0 +1,114 @@
+.conteúdo {
+    margin: 210px 0 115px 200px;
+    background: url(../images/ilustra-poupando.png) 70% 50% no-repeat;
+    background-size: 380px 290px;
+    
+}
+
+.conteúdo h1 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #ff4081;
+    width: 512px;
+}
+
+.conteúdo p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    width: 461px;
+}
+
+.aulas {
+    background: #f7f7f7;
+    padding-top: 75px;
+}
+
+article {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 75px;
+}
+
+article video {
+    width: 462px;
+    height: 261px;
+    border: solid;
+    margin-bottom: 70px;
+}
+
+section h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #ff4081;
+    position: relative;
+    bottom: 35px;
+}
+
+section p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    width: 500px;
+    color: #000000;
+    margin-bottom: 73px;
+    position: relative;
+    bottom: 30px;
+    
+    
+    
+   
+}
+
+@media screen and (max-width: 1250px) {
+    .conteúdo {
+        background: none;
+    }
+    
+}
+
+@media screen and (max-width: 1000px){
+    article {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    section p {
+        text-align: justify;
+    }
+
+    .aulas {
+        padding-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .conteúdo {
+        margin: 200px auto 115px 50px;
+    }
+    
+}
+
+@media screen and (max-width: 560px) {
+    .conteúdo h1 {
+        width: auto;
+    }
+
+    .conteúdo p {
+        width: auto;
+        margin: 20px 40px 20px 0;
+    }
+
+    section video {
+        display: none;
+    }
+    section p {
+        width: auto;
+        margin: 20px 40px 73px 40px;
+    }
+    
+}

@@ -1,3 +1,307 @@
-main {
-    padding-top: 250px;
+.bannerindex {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/ilustra-banner.png);
+    background-size: 510px;
+    background-repeat: no-repeat;
+    background-position: 700px;
+    background-position-y: 50%;
+    height: 733px n;
+
 }
+
+.bannerindex h1 {
+    width: 488px;
+    height: 216px;
+    color: #ff4081;
+    margin: 125px 0 19px 206px;
+    font-weight: 700;
+    font-size: 60px;
+
+}
+
+.bannerindex p {
+    width: 350px;
+    height: 62px;
+    color: #555555;
+    margin: 0 774px 38px 206px;
+    font-weight: 400;
+    font-size: 26px;
+
+}
+
+.bannerindex a {
+    display: block;
+    color: #ff4081;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #ff4081;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 27px;
+    margin: 0 auto 201px 207px;
+    padding: 8px 15px;
+
+}
+
+.indexcursos-a {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f6f6f6;
+    justify-content: space-evenly;
+    margin: 0;
+    padding-top: 109px;
+
+}
+
+.cursosindex {
+    width: 344px;
+    height: 505px;
+    text-align: center;
+    align-items: center;
+    margin: 0 15px 119px 15px;
+}
+
+.cursosindex img {
+    width: 288px;
+    height: 270px;
+    display: block;
+    margin-bottom: 45px;
+}
+
+.cursosindex h4 {
+    display: block;
+    color: #ff4081;
+    text-align: center;
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+
+.cursosindex p {
+    display: block;
+    color: #000;
+    text-align: center;
+    font-weight: 300;
+    font-size: 17px;
+    margin-bottom: 26px;
+    width: 293px;
+}
+
+.cursosindex a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #ff4081;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 50px;
+    background-color: #ff4081;
+
+}
+
+.snindex {
+    padding-top: 120px;
+    margin: 0 auto 155px;
+}
+
+.snindex h3 {
+    font-weight: 700;
+    font-size: 37px;
+    color: #009688;
+    margin: 0% auto 78px 120px;
+}
+
+.depoimentos {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-evenly;
+}
+
+.dep {
+    display:flex;
+    width: 40%;
+    column-gap: 5%;
+}
+
+.dep img {
+    max-width: 104px;
+    max-height: 104px;
+}
+
+.dep p {
+    padding-right: 60px;
+    font-weight: 300;
+}
+
+.dep span {
+    font-weight: 400;
+}
+
+.complindex {
+    background-color: #e5e5e5;
+    padding-top: 90px;
+    padding-bottom: 53px;
+
+}
+
+.complindex h2 {
+    color: #009688;
+    margin: 0 auto 78px 120px;
+}
+
+.conteúdos-index {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+
+}
+
+.contindex {
+    display: flex;
+    flex-direction: column;
+    width: 319px;
+}
+
+.contindex h4 {
+    font-weight: 700;
+    font-size: 27px;
+    color: #009688;
+}
+
+.contindex img {
+    width: 319px;
+    height: 197px;
+    background-color: #c4c4c4;
+    color: #c4c4c4;
+    margin-bottom: 11px;
+}
+
+.button {
+    width: 280px;
+    display: flex;
+    border: 1px solid #ff4081;
+    border-radius: 62px;
+    justify-content: center;
+    margin: auto;
+}
+
+.button a {
+    color: #ff4081;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1215px) {
+    .bannerindex {
+        background-image: none;
+    }
+
+    .indexcursos-a {
+       justify-content: center; 
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .bannerindex h1 {
+        text-align: center;
+        margin: 125px auto 19px auto;
+    }
+
+    .bannerindex p {
+        margin: 0 auto 39px auto;
+    }
+
+    .bannerindex a {
+        margin: 0 auto 200px auto;
+    }
+
+    .complindex h2{
+        color: #009688;
+        margin: 0 auto 78px 23%;
+    }
+
+    .complindex h4{
+        margin: 0 0 0 0;
+        
+    }
+
+
+    .contindex {
+        width: 420px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+
+    }
+
+    .dep {
+        width: auto;
+        margin-left: 5%;
+    }
+
+    .button {
+        margin: -80px auto 50px auto;
+    }
+
+    .button a {
+        padding: 10px 30px;
+
+    }
+
+    .contindex {
+        align-items: center;
+        text-align: center;
+    }
+
+
+}
+
+@media screen and (max-width: 481px) {
+    .bannerindex {
+        width: 80%;
+        background-size: 50px;
+        height: 500px;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .bannerindex h1 {
+        margin: 20px 0 20px auto;
+        width: 360px;
+    }
+
+    .bannerindex p {
+        margin: 20px 0 20px 10%;
+
+    }
+
+    .bannerindex a {
+        margin: 20px 0 20px 10%;
+    }
+
+    .dep {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        gap: 30px;
+    }
+    
+    .conteúdos-index {
+        margin-bottom: 0;
+    }
+
+    .complindex h2 {
+        margin: 0 auto 78px 30px;
+    }
+
+    .button {
+        margin: auto;
+    }
+}
+

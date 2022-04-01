@@ -1,5 +1,6 @@
 .início {
     margin: 82px 0 82px 82px;
+    margin: 82px 0 82px 82px;
 }
 
 .início h1 {
@@ -18,7 +19,7 @@
     line-height: 23px;
 }
 
-/* cursos */
+
 
 .cursos {
     display: flex;
@@ -64,11 +65,6 @@
     line-height: 23px;
 }
 
-hr {
-    width: 80%;
-    color: #c4c4c4;
-}
-
 footer {
     margin-top: 200px;
 }
@@ -98,12 +94,35 @@ footer {
 }
 
 @media screen and (max-width: 481px) {
+  .início {
+      margin: 82px 20px;
+  }
+
+  .início h1 {
+      text-align: center;
+  }
+
+  .início p {
+      text-align: center;
+  }
+
+
     .cursos img {
-        width: auto;
+       width: auto;
     }
 
     .cursos {
         margin: 90px 30px 90px 0;
         width: auto;
+
     }
 } 
+
+hr {
+    width: 1244px;
+    height: 5px;
+    color: #c4c4c4;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    background: #c4c4c4c4;
+    }
