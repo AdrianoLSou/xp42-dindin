@@ -30,6 +30,9 @@
 
 .post img{
     width: 518px;
+    position: relative;
+    bottom: -20px;
+   
 }
 
 .post h2{

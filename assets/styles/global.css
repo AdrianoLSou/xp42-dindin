@@ -48,6 +48,7 @@ footer {
     background: #419488;
     display: flex;
     justify-content: center;
+    padding: 0 60px 0 60px;
 }
 
 footer h2 a {
