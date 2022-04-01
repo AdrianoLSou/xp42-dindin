@@ -137,7 +137,7 @@ main .container p{
 }
 
 .nossoscursos{
-    width: 528px;
+    width: 560px;
     margin-top: 150px;
     margin-left: auto;
     margin-right: auto;
@@ -147,6 +147,7 @@ main .container p{
     display: flex;
     align-items: center;
     color: #ff4081;
+    
 }
 
 
