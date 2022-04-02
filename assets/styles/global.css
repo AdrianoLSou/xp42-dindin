@@ -58,6 +58,7 @@ footer h2 a {
     background: url('../images/logo-footer.png') 0 0 no-repeat;
     width: 312px;
     height: 102px;
+    
 }
 
 footer nav ul {
@@ -93,6 +94,7 @@ footer a {
     justify-content: space-between;
     box-sizing: content-box;
     padding: 0 20px;
+    flex-wrap: wrap;
 }
 
 
