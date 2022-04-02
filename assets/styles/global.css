@@ -29,6 +29,7 @@ header nav ul {
     height: 100%;
     margin: 0 0 20px;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 header nav ul li {
